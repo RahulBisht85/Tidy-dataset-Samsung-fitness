@@ -12,12 +12,10 @@
 ## Here are the data for the project:
 ## https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-
-
-
-
+## set working directory to Assignment
 getwd()
 setwd("./Data Science/Assignment")
+## create a Project directory to save datasets
 if (!file.exists("Project")){
     dir.create("./Project")
 }
@@ -29,7 +27,6 @@ download.file(url_data, "./Project/dataset.zip")
 
 # Unzip dataSet to /data directory
 unzip(zipfile="./Project/dataset.zip",exdir="./Project")
-
 
 list.dirs("./Project")
 
