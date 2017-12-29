@@ -21,7 +21,7 @@ For each record it is provided:
 
 The dataset includes the following files:
 =========================================
-- 'README.txt': This file is the codebook for the dataset. 
+- 'CodeBook.md': This file is the codebook for the dataset. 
 - 'tidydataset.txt': This file contains the average of obsevations of mean and standard deviations for each activity and subject.
 
 Instruction set:
